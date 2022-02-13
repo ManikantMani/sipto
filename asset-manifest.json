@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/sipto/static/css/main.dd43b8c8.css",
+    "main.js": "/sipto/static/js/main.64f3342e.js",
+    "static/media/exchange.png": "/sipto/static/media/exchange.a6519243d3772e0b9f87.png",
+    "static/media/docs1.png": "/sipto/static/media/docs1.61d5198f0f9b60f75e56.png",
+    "static/media/tool3.png": "/sipto/static/media/tool3.8220a6249fa8e2022fac.png",
+    "static/media/tool4.png": "/sipto/static/media/tool4.8480b2a461b09e27338f.png",
+    "static/media/bg4.png": "/sipto/static/media/bg4.f68121c1561d3428433c.png",
+    "static/media/docs2.png": "/sipto/static/media/docs2.a8269137b21612313382.png",
+    "static/media/tool1.png": "/sipto/static/media/tool1.1142035fdcee0f5515f4.png",
+    "static/media/market-news.png": "/sipto/static/media/market-news.e911ead3122ffb97327b.png",
+    "static/media/docs4.png": "/sipto/static/media/docs4.0f141e517e289e23da52.png",
+    "static/media/tool2.png": "/sipto/static/media/tool2.72826009dd82e2639ab3.png",
+    "static/media/tool5.png": "/sipto/static/media/tool5.55e860a0b8a88658e256.png",
+    "static/media/docs5.png": "/sipto/static/media/docs5.6ade74f893298ad69c79.png",
+    "static/media/logo.png": "/sipto/static/media/logo.d28b21b5e9ce092f0c77.png",
+    "static/media/docs6.png": "/sipto/static/media/docs6.f69e46b7d98614a61067.png",
+    "static/media/bitcoin.png": "/sipto/static/media/bitcoin.b524f51387d72e45d70a.png",
+    "static/media/blockchain.png": "/sipto/static/media/blockchain.e6f74a6de5d20f04aff8.png",
+    "static/media/docs3.png": "/sipto/static/media/docs3.b190ce651f1c23510074.png",
+    "index.html": "/sipto/index.html",
+    "main.dd43b8c8.css.map": "/sipto/static/css/main.dd43b8c8.css.map",
+    "main.64f3342e.js.map": "/sipto/static/js/main.64f3342e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd43b8c8.css",
+    "static/js/main.64f3342e.js"
+  ]
+}
