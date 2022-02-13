@@ -1,0 +1,643 @@
+.home {
+    width: 100vw;
+    background: rgb(0,37,127);
+background: linear-gradient(105deg, rgba(0,37,127,1) 46%, rgba(2,19,107,1) 46%, rgba(0,39,225,1) 75%);
+    
+}
+.home_contaier {
+    /* border: solid 3px red; */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: rgb(0, 0, 0); */
+    /* background: rgb(16,7,92);
+background: linear-gradient(90deg, rgba(16,7,92,1) 0%, rgba(17,15,120,1) 50%, rgba(18,40,177,1) 100%); */
+
+}
+.home_main {
+    /* border: solid 3px black; */
+    margin-top: 2rem;
+    margin-left: 6rem;
+}
+.home_content {
+    /* border: solid 3px green; */
+    margin-top: 4rem;
+    margin-left: 1rem;
+    height: 70%;
+}
+.home_h3 {
+    font-size: 1.2rem;
+    color: #00e0b8;
+    text-transform: uppercase;
+}
+.home_h1 {
+    margin-top: 2rem;
+    font-weight: 800;
+    font-size: 70px;
+    color: var(--main-color);
+}
+.home_p {
+    color: rgb(189, 189, 189);
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+.button_group {
+    margin-top: -7rem;
+    margin-left: 1rem;
+    /* border: solid 3px yellow; */
+}
+.trading_button {
+    width: 12rem;
+    height: 3.3rem;
+    border: none;
+    font-size: 1.3rem;
+    border-radius: 2rem;
+    background-color: #00e0b8;
+}
+.trading_button:hover {
+    border: none;
+    box-shadow: 5px 3px 15px #00e0b8;
+}
+.liquidity_button {
+    margin-left: 3rem;
+    width: 12rem;
+    height: 3.3rem;
+    font-size: 1.2rem;
+    border-radius: 2rem;
+    color: var(--main-color);
+    border: solid 1px #00e0b8;
+    background-color: transparent;
+}
+.liquidity_button:hover {
+    box-shadow: 0 0 0 3px #00e0b8;
+}
+.home_img {
+    margin: 3rem;
+    /* border: solid 2px red; */
+}
+.animated {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes up-down {
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+.home_number {
+    margin-top: -6rem;
+    /* border: solid 3px red; */
+    display: flex;
+    justify-content: space-around;
+}
+.number_div {
+    /* border: solid 2px white; */
+    margin-top: 0rem;
+}
+.font_awesome {
+    color: var(--main-color);
+    display: flex;
+    align-items: center;
+}
+.font_awesome > i {
+    width: 3.5rem;
+    height: 3.5rem;
+    text-align: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 13.5px;
+    color: black;
+    background-color: #00e0b8;
+    font-size: 1.8rem;
+    /* border: solid 2px yellow; */
+}
+.number {
+    height: 3.5rem;
+    /* border: solid 2px red; */
+    margin-left: 0.5rem;
+}
+.number_count {
+    /* border: solid 2px white; */
+    font-size: 1.5rem;
+}   
+.number_detail {
+    /* border: solid 2PX green; */
+    font-size: 0.6rem;
+}
+
+@media only screen and (max-width: 300px) {
+    .home_contaier {
+        display: flex;
+        flex-direction: column;
+    }
+    .home_main {
+        margin-top: 0px;
+        margin-left: 1rem;
+    }
+    .home_content {
+        margin-top: 2rem;
+    }
+    .home_h3 {
+        margin-left: 0;
+        font-size: 12px;
+    }
+    .home_h1 {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .home_p {
+        margin-top: 0;
+        font-size: 12px;
+    }
+    .button_group {
+        margin: 0;
+        margin-top: -2rem;
+        margin-left: 1rem;
+    }
+    .trading_button, .liquidity_button {
+        width: 10rem;
+        height: 2.8rem;
+        font-size: 1rem;
+    }
+    .liquidity_button {
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+    .home_img {
+        margin-top: 4rem;
+    }
+    .home_number {
+        margin-top: 0;
+    }
+    .font_awesome > i {
+        width: 2rem;
+        height: 2rem;
+        font-size: 1rem;
+        padding: 8.2px;
+        margin-left: 0.5rem;
+    }
+    .number {
+        height: 2rem;
+        margin-left: 0.5rem;
+    }
+    .number_count {
+        font-size: 1rem;
+    }
+    .number_detail {
+        font-size: 0.4rem;
+        margin-top: -5px;
+    }
+}
+@media (min-width:300px) and (max-width: 360px) {
+    .home_contaier {
+        display: flex;
+        flex-direction: column;
+    }
+    .home_main {
+        margin-top: 0px;
+        margin-left: 1rem;
+    }
+    .home_content {
+        margin-top: 2rem;
+    }
+    .home_h3 {
+        margin-left: 0;
+        font-size: 14px;
+    }
+    .home_h1 {
+        margin-top: 10px;
+        font-size: 25px;
+    }
+    .home_p {
+        font-size: 12px;
+        margin-top: 0px;
+    }
+    .button_group {
+        margin: 0;
+        margin-top: -2rem;
+        margin-left: 1rem;
+    }
+    .trading_button, .liquidity_button {
+        width: 10rem;
+        height: 2.8rem;
+        font-size: 1rem;
+    }
+    .liquidity_button {
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+    .home_img {
+        margin-top: 4rem;
+    }
+    .home_number {
+        margin-top: 0;
+    }
+    .font_awesome > i {
+        width: 2rem;
+        height: 2rem;
+        font-size: 1rem;
+        padding: 8.2px;
+        margin-left: 0.5rem;
+    }
+    .number {
+        height: 2rem;
+        margin-left: 0.5rem;
+    }
+    .number_count {
+        font-size: 1rem;
+    }
+    .number_detail {
+        font-size: 0.4rem;
+        margin-top: -5px;
+    }
+}
+
+@media (min-width:360px) and (max-width: 410px) {
+    .home_contaier {
+        display: flex;
+        flex-direction: column;
+    }
+    .home_main {
+        margin-top: 0px;
+        margin-left: 1rem;
+    }
+    .home_content {
+        margin-top: 3rem;
+    }
+    .home_h3 {
+        margin-left: 0;
+        font-size: 16px;
+    }
+    .home_h1 {
+        margin-top: 10px;
+        font-size: 30px;
+    }
+    .home_p {
+        font-size: 14px;
+        margin-top: 0px;
+    }
+    .button_group {
+        margin: 0;
+        margin-top: -2rem;
+        margin-left: 1rem;
+    }
+    .trading_button, .liquidity_button {
+        width: 10rem;
+        height: 2.8rem;
+        font-size: 1rem;
+    }
+    .liquidity_button {
+        margin-left: 0.5rem;
+        margin-top: 1rem;
+    }
+    .home_img {
+        margin-top: 4rem;
+    }
+    .home_number {
+        margin-top: 0;
+    }
+    .font_awesome > i {
+        width: 2rem;
+        height: 2rem;
+        font-size: 1rem;
+        padding: 8.2px;
+        margin-left: 0.5rem;
+    }
+    .number {
+        height: 2rem;
+        margin-left: 0.5rem;
+    }
+    .number_count {
+        font-size: 1rem;
+    }
+    .number_detail {
+        font-size: 0.45rem;
+        margin-top: -5px;
+    }
+}
+
+@media (min-width:410px) and (max-width: 500px) {
+    .home_contaier {
+        display: flex;
+        flex-direction: column;
+    }
+    .home_main {
+        margin-top: 0px;
+        margin-left: 1rem;
+    }
+    .home_content {
+        margin-top: 8rem;
+    }
+    .home_h3 {
+        margin-left: 0;
+        font-size: 16px;
+    }
+    .home_h1 {
+        margin-top: 10px;
+        font-size: 30px;
+    }
+    .home_p {
+        font-size: 14px;
+        margin-top: 0px;
+    }
+    .button_group {
+        margin: 0;
+        margin-top: -3rem;
+        margin-left: 1rem;
+    }
+    .trading_button, .liquidity_button {
+        width: 10rem;
+        height: 2.8rem;
+        font-size: 1rem;
+    }
+    .liquidity_button {
+        margin-left: 0.7rem;
+        margin-top: 1rem;
+    }
+    .home_img {
+        margin-top: 5rem;
+    }
+    .home_number {
+        margin-top: 5rem;
+    }
+    .font_awesome > i {
+        width: 2rem;
+        height: 2rem;
+        font-size: 1rem;
+        padding: 8.2px;
+        margin-left: 0.5rem;
+    }
+    .number {
+        height: 2rem;
+        margin-left: 0.5rem;
+    }
+    .number_count {
+        font-size: 1rem;
+    }
+    .number_detail {
+        font-size: 0.45rem;
+        margin-top: -5px;
+    }
+}
+
+@media (min-width:500px) and (max-width: 600px){
+    .home_contaier {
+        display: flex;
+        flex-direction: column;
+    }
+    .home_main {
+        margin-top: 0px;
+        margin-left: 1rem;
+    }
+    .home_content {
+        margin-top: 14rem;
+    }
+    .home_h3 {
+        margin-left: 0;
+        font-size: 18px;
+    }
+    .home_h1 {
+        margin-top: 10px;
+        font-size: 35px;
+    }
+    .home_p {
+        font-size: 16px;
+        margin-top: 0px;
+    }
+    .button_group {
+        margin: 0;
+        margin-top: -5rem;
+        margin-left: 1rem;
+    }
+    .trading_button, .liquidity_button {
+        width: 10rem;
+        height: 2.8rem;
+        font-size: 1rem;
+    }
+    .liquidity_button {
+        margin-left: 0.7rem;
+        margin-top: 1.5rem;
+    }
+    .home_img {
+        margin-top: 7rem;
+    }
+    .home_number {
+        margin-top: 11rem;
+    }
+    .font_awesome > i {
+        width: 2rem;
+        height: 2rem;
+        font-size: 1rem;
+        padding: 8.2px;
+        margin-left: 0.5rem;
+    }
+    .number {
+        height: 2rem;
+        margin-left: 0.5rem;
+    }
+    .number_count {
+        font-size: 1rem;
+    }
+    .number_detail {
+        font-size: 0.45rem;
+        margin-top: -5px;
+    }
+}
+
+@media (min-width: 600px)  and (max-width: 768px) {
+    .home_contaier {
+        display: flex;
+        flex-direction: column;
+    }
+    .home_main {
+        margin-top: 0px;
+        margin-left: 1rem;
+    }
+    .home_content {
+        margin-top: 16rem;
+    }
+    .home_h3 {
+        margin-left: 0;
+        font-size: 20px;
+    }
+    .home_h1 {
+        margin-top: 10px;
+        font-size: 40px;
+    }
+    .home_p {
+        font-size: 16px;
+        margin-top: 0px;
+    }
+    .button_group {
+        margin: 0;
+        margin-top: -7rem;
+        margin-left: 1rem;
+    }
+    .trading_button, .liquidity_button {
+        width: 10rem;
+        height: 2.8rem;
+        font-size: 1rem;
+    }
+    .liquidity_button {
+        margin-left: 0.7rem;
+        margin-top: 1.5rem;
+    }
+    .home_img {
+        margin-top: 7rem;
+    }
+    .home_number {
+        margin-top: 12rem;
+    }
+    .font_awesome > i {
+        width: 2rem;
+        height: 2rem;
+        font-size: 1rem;
+        padding: 8.2px;
+        margin-left: 0.5rem;
+    }
+    .number {
+        height: 2rem;
+        margin-left: 0.5rem;
+    }
+    .number_count {
+        font-size: 1rem;
+    }
+    .number_detail {
+        font-size: 0.45rem;
+        margin-top: -5px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .home_main {
+        margin-top: 0px;
+        margin-left: 1rem;
+    }
+    .home_content {
+        margin-top: 16rem;
+    }
+    .home_h3 {
+        margin-left: 0;
+        font-size: 20px;
+    }
+    .home_h1 {
+        margin-top: 10px;
+        font-size: 40px;
+    }
+    .home_p {
+        font-size: 16px;
+        margin-top: 0px;
+    }
+    .button_group {
+        margin: 0;
+        margin-top: -7rem;
+        margin-left: 1rem;
+    }
+    .trading_button, .liquidity_button {
+        width: 10rem;
+        height: 2.8rem;
+        font-size: 1rem;
+    }
+    .liquidity_button {
+        margin-left: 0.7rem;
+        margin-top: 1.5rem;
+    }
+    .home_img {
+        margin-top: 7rem;
+    }
+    .home_number {
+        margin-top: 12rem;
+    }
+    .font_awesome > i {
+        width: 2rem;
+        height: 2rem;
+        font-size: 1rem;
+        padding: 8.2px;
+        margin-left: 0.5rem;
+    }
+    .number {
+        height: 2rem;
+        margin-left: 0.5rem;
+    }
+    .number_count {
+        font-size: 1rem;
+    }
+    .number_detail {
+        font-size: 0.45rem;
+        margin-top: -5px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .home_main {
+        margin-top: 0px;
+        margin-left: 1rem;
+    }
+    .home_content {
+        margin-top: 16rem;
+    }
+    .home_h3 {
+        margin-left: 0;
+        font-size: 20px;
+    }
+    .home_h1 {
+        margin-top: 10px;
+        font-size: 50px;
+    }
+    .home_p {
+        font-size: 16px;
+        margin-top: 0px;
+    }
+    .button_group {
+        margin: 0;
+        margin-top: -7rem;
+        margin-left: 1rem;
+    }
+    .trading_button, .liquidity_button {
+        width: 10rem;
+        height: 2.8rem;
+        font-size: 1rem;
+    }
+    .liquidity_button {
+        margin-left: 0.7rem;
+        margin-top: 1.5rem;
+    }
+    .home_img {
+        margin-top: 7rem;
+    }
+    .home_number {
+        margin-top: 12rem;
+    }
+    .font_awesome > i {
+        width: 2rem;
+        height: 2rem;
+        font-size: 1rem;
+        padding: 8.2px;
+        margin-left: 0.5rem;
+    }
+    .number {
+        height: 2rem;
+        margin-left: 0.5rem;
+    }
+    .number_count {
+        font-size: 1rem;
+    }
+    .number_detail {
+        font-size: 0.45rem;
+        margin-top: -5px;
+    }
+}

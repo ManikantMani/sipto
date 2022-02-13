@@ -1,0 +1,274 @@
+.tool_container {
+    /* border: solid 2px #ff0000; */
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+    justify-content: space-around;
+}
+.tool_main {
+    /* border: solid 3px white; */
+    text-align: center;
+    width: 50vw;
+}
+.toolimgs {
+    /* border: solid 2px red; */
+    margin-top: 3rem;
+}
+.tool_img1 {
+    /* border: solid 2px rebeccapurple; */
+}
+.tool_heading {
+    /* border: solid 2px yellow; */
+    color: var(--main-color);
+    font-size: 3rem;
+    font-weight: 800;
+}
+.tool_p {
+    /* border: solid 2px greenyellow; */
+    color: rgb(228, 228, 228);
+}
+.tool_service_groups {
+    /* border: solid 2px yellow; */
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+.tool_service_group {
+    /* border: solid 2px white; */
+    margin-top: 1rem;
+    justify-content: space-around;
+    display: flex;
+}
+.tool_service_content {
+    /* border: solid 2px red; */
+    width: 48%;
+    text-align: center;
+
+}
+.tool_img2 {
+    width: 5rem;
+    transition: 1s;
+}
+.tool_img2:hover {
+    margin-top: -1rem;
+}
+.too_content_p {
+    color: var(--main-color);
+}
+
+@media only screen and (max-width: 300px) {
+    .tool_container {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .tool_main {
+        width: 100vw;
+        padding: 1rem;
+    }
+    .toolimgs {
+        margin-top: 0;
+    }
+    .tool_img1 {
+        width: 90vw;
+        height: 50vh;
+        margin-left: 1rem;
+    }
+    .tool_heading {
+        font-size: 1.8rem;
+    }
+    .tool_p {
+        font-size: 8.5px;
+    }
+    .too_content_p {
+        font-size: 8px;
+    }
+}
+
+@media (min-width:300px) and (max-width: 360px) {
+    .tool_container {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .tool_main {
+        width: 100vw;
+        padding: 1rem;
+    }
+    .toolimgs {
+        margin-top: 0;
+    }
+    .tool_img1 {
+        width: 90vw;
+        height: 52vh;
+        margin-left: 1rem;
+    }
+    .tool_heading {
+        font-size: 1.8rem;
+    }
+    .tool_p {
+        font-size: 10.5px;
+    }
+    .too_content_p {
+        font-size: 10px;
+    }
+}
+
+@media (min-width:360px) and (max-width: 410px) {
+    .tool_container {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .tool_main {
+        width: 100vw;
+        padding: 1rem;
+    }
+    .toolimgs {
+        margin-top: 0;
+    }
+    .tool_img1 {
+        width: 90vw;
+        height: 54vh;
+        margin-left: 1rem;
+    }
+    .tool_heading {
+        font-size: 1.8rem;
+    }
+    .tool_p {
+        font-size: 10.5px;
+    }
+    .too_content_p {
+        font-size: 10px;
+    }
+}
+
+@media (min-width:410px) and (max-width: 500px) {
+    .tool_container {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .tool_main {
+        width: 100vw;
+        padding: 1rem;
+        
+    }
+    .toolimgs {
+        margin-top: 0;
+    }
+    .tool_img1 {
+        width: 90vw;
+        height: 57vh;
+        margin-left: 1rem;
+    }
+    .tool_heading {
+        font-size: 2rem;
+    }
+    .tool_p {
+        font-size: 11.5px;
+    }
+    .too_content_p {
+        font-size: 11px;
+    }
+}
+
+@media (min-width:500px) and (max-width: 600px){
+    .tool_container {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .tool_main {
+        width: 100vw;
+        padding: 1rem;
+        
+    }
+    .toolimgs {
+        margin-top: 0;
+    }
+    .tool_img1 {
+        width: 90vw;
+        height: 63vh;
+        margin-left: 1rem;
+    }
+    .tool_heading {
+        font-size: 2.1rem;
+    }
+    .tool_p {
+        font-size: 12px;
+    }
+    .too_content_p {
+        font-size: 11.5px;
+    }
+}
+
+@media (min-width: 600px)  and (max-width: 768px) {
+    .tool_container {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .tool_main {
+        width: 100vw;
+        padding: 1rem;
+        
+    }
+    .toolimgs {
+        margin-top: 0;
+    }
+    .tool_img1 {
+        width: 90vw;
+        height: 72vh;
+        margin-left: 1rem;
+    }
+    .tool_heading {
+        font-size: 2.3rem;
+    }
+    .tool_p {
+        font-size: 14.5px;
+    }
+    .too_content_p {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .tool_container {
+        width: 100vw;
+        margin-top: 0;
+    }
+    .tool_main {
+        width: 100vw;
+        padding: 1rem;
+        
+    }
+    .toolimgs {
+        margin-top: 0;
+    }
+    .tool_img1 {
+        width: 50vw;
+        height: 42vh;
+        margin-top: 30%;
+        /* margin-left: 1rem; */
+    }
+    .tool_heading {
+        font-size: 2.3rem;
+    }
+    .tool_p {
+        font-size: 14.5px;
+    }
+    .too_content_p {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 992) and (max-width: 1200px) {}
+

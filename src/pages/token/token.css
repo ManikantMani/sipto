@@ -1,0 +1,942 @@
+.token_container {
+  width: 100vw;
+  height: 80vh;
+  /* border: solid 2px red; */
+  display: flex;
+  justify-content: space-around;
+  background: rgb(0,37,127);
+background: linear-gradient(105deg, rgba(0,37,127,1) 46%, rgba(2,19,107,1) 46%, rgba(0,39,225,1) 75%);
+}
+.token_main {
+  /* border: solid 2px red; */
+  width: 40vw;
+  margin-top: 4rem;
+  margin-left: 4rem;
+}
+.token_header {
+  color: var(--main-color);
+  margin-top: 4rem;
+  font-weight: 800;
+  font-size: 2.8rem;
+}
+.token_h2 {
+  color: rgb(0, 247, 193);
+  margin-top: 2rem;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+.token_p {
+  color: rgb(216, 211, 211);
+  margin-top: 2rem;
+}
+.button_groups {
+  /* border: solid 2px green; */
+  width: 70%;
+  display: flex;
+  align-items: center;
+  margin-top: 2.5rem;
+}
+.whitepaper_button {
+  width: 9rem;
+  height: 3rem;
+  border-radius: 2rem;
+  border: none;
+  transition: 600ms;
+  font-weight: 500;
+  font-size: 1.05rem;
+  background-color: #00e0b8;
+}
+.whitepaper_button:hover {
+  box-shadow: 5px 3px 15px #00e0b8;
+}
+.video_intro {
+  width: 3rem;
+  height: 3rem;
+  color: var(--main-color);
+  background-color: transparent;
+  border: none;
+  border: solid 2px var(--main-color);
+  border-radius: 50%;
+  margin-left: 5rem;
+  transition: 0.6s;
+}
+.video_intro:hover {
+  padding-top: -5px;
+  box-shadow: 3px 3px 5px white;
+}
+.video_intro_name {
+  color: var(--main-color);
+  font-weight: 500;
+  margin-left: 10px;
+}
+.tokn_card_container {
+  width: 40%;
+  height: 100%;
+}
+.token_card {
+  /* border: solid 2px black; */
+  width: 32vw;
+  height: 50vh;
+  margin-top: 8rem;
+  border: none;
+  border-radius: 2.5rem;
+  box-shadow: rgba(255, 254, 254, 0.19) 0px 10px 20px, 
+  rgba(255, 255, 255, 0.23) 0px 6px 6px;
+}
+.token_card_heading {
+  /* border: solid 2px red; */
+  text-align: center;
+  font-weight: 800;
+  color: #00e0b8;
+}
+.token_card_timing {
+  /* border: solid 2px green; */
+  height: 72%;
+}
+.token_card_time {
+  /* border: solid 2px yellow; */
+  height: 40%;
+}
+.time_box_group {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.time_name_group {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.time_box_name {
+    margin-left: 2rem;
+    margin-top: 0.7rem;
+    font-weight: 600;
+    color: var(--main-color);
+}
+.time_box1 {
+  /* border: solid 2px red; */
+  width: 6rem;
+  height: 5rem;
+  text-align: center;
+  color: var(--main-color);
+  margin-top: auto;
+  font-weight: 800;
+  border-radius: 1.2rem;
+  font-size: 3rem;
+  background: rgb(0, 38, 133);
+  box-shadow: 2px 3px 6px var(--main-color);
+}
+.token_time_line {
+  /* border: solid 2px red; */
+  margin-top: 2rem;
+  margin-left: 1rem;
+  width: 95%;
+  border-radius: 2rem;
+  border: none;
+  height: 1rem;
+  background: rgb(7,13,116);
+  background: linear-gradient(105deg, rgba(7,13,116,1) 25%, rgba(0,55,193,1) 54%, rgba(205,219,255,1) 84%);
+  animation: left-right 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes left-right {
+  0% {
+      transform: translateY(5px);
+  }
+  100% {
+      transform: translateY(-5px);
+  }
+}
+
+@keyframes left-right {
+  0% {
+      transform: translateY(5px);
+  }
+  100% {
+      transform: translateY(-5px);
+  }
+}
+.about_token_time {
+  /* border: solid 2px red; */
+  text-align: center;
+  color: var(--main-color);
+  margin-top: 1rem;
+}
+.purchage_type {
+    width: 80%;
+    height: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+.purchage_coin_type {
+    font-size: 1.6rem;
+    margin-left: 4rem;
+    color: #00e0b8;
+}
+.purchages_token {
+    margin-top: 1.5rem;
+    margin-left: 5rem;
+    width: 70%;
+    height: 3rem;
+    border-radius: 2rem;
+    border: none;
+    background-color: #00e0b8;
+    font-weight: 600;
+    transition: 1s;
+    font-size: 1.2rem;
+}
+.purchages_token:hover {
+    box-shadow: 3px 5px 15px #00e0b8;
+}
+
+@media only screen and (max-width: 300px) {
+  .token_container {
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .token_main {
+    width: 100%;
+    min-width: 100%;
+    height: 80vh;
+    margin-top: 2rem;
+    margin-left: 1rem;
+  }
+  .token_header {
+    font-size: 1rem;
+    margin: 0;
+  }
+  .token_h2 {
+    font-size: 0.8rem;
+  }
+  .token_p {
+    font-size: 0.4rem;
+  }
+  .button_groups {
+    display: flex;
+    /* flex-direction: column; */
+  }
+  .whitepaper_button {
+    width: 7rem;
+    height: 2rem;
+    font-size: 1rem;
+  }
+  .video_intro {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+    /* margin-top: 1rem; */
+  }
+  .fa-play {
+    font-size: 0.8rem;
+  }
+  .video_intro_name {
+    font-size: 0.6rem;
+  }
+  .token_card_container {
+    width: 100vw;
+    height: 70vh;
+    
+  }
+  .token_card {
+    border-top: 2px solid var(--main-color);
+    width: 90vw;
+    margin-left: 1rem;
+    height: 50vh;
+    margin-top: -5rem;
+    align-items: center;
+  }
+  .token_card_heading {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  .token_card_timing {
+    height: 60%;
+  }
+  .token_card_time {
+    height: 30%;
+  }
+  .time_box1 {
+    width: 20vw;
+    height: 20vw;
+    font-size: 2.2rem;
+    margin-top: 1.3rem;
+  }
+  .time_box_name {
+    font-size: 0.8rem;
+    margin-left: 0.6rem;
+  }
+  .token_time_line {
+    margin-top: 4rem;
+    margin-left: 0.5rem;
+  }
+  .about_token_time {
+    font-size: 0.8rem;
+  }
+  .purchage_type {
+    height: 1rem;
+  }
+  .purchage_coin_type {
+    font-size: 0.8rem;
+  }
+  .purchages_token {
+    width: 40%;
+    height: 2rem;
+    margin-top: 1rem;
+    font-size: 0.6rem;
+  }
+}
+
+@media (min-width:300px) and (max-width: 360px) {
+  .token_container {
+    height: 110vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .token_main {
+    width: 100%;
+    height: 80vh;
+    margin-top: 2rem;
+    margin-left: 1rem;
+  }
+  .token_header {
+    font-size: 1rem;
+    margin: 0;
+  }
+  .token_h2 {
+    font-size: 0.8rem;
+  }
+  .token_p {
+    font-size: 0.7rem;
+  }
+  .button_groups {
+    display: flex;
+    /* flex-direction: column; */
+  }
+  .whitepaper_button {
+    width: 7rem;
+    height: 2rem;
+    font-size: 1rem;
+  }
+  .video_intro {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+    /* margin-top: 1rem; */
+  }
+  .fa-play {
+    font-size: 0.8rem;
+  }
+  .video_intro_name {
+    font-size: 0.6rem;
+  }
+  .tokn_card_container {
+    width: 100vw;
+    height: 70vh;
+  }
+  .token_card {
+    border-top: 2px solid var(--main-color);
+    width: 90%;
+    /* margin-left: 1rem; */
+    height: 50vh;
+    margin-top: -5rem;
+    align-items: center;
+  }
+  .token_card_heading {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  .token_card_timing {
+    height: 65%;
+  }
+  .token_card_time {
+    height: 30%;
+  }
+  .time_box1 {
+    width: 20vw;
+    height: 20vw;
+    font-size: 2.2rem;
+    margin-top: 1.3rem;
+  }
+  .time_box_name {
+    font-size: 0.8rem;
+    margin-left: 0.6rem;
+  }
+  .token_time_line {
+    margin-top: 4rem;
+    margin-left: 0.5rem;
+  }
+  .about_token_time {
+    font-size: 0.8rem;
+  }
+  .purchage_type {
+    height: 1rem;
+  }
+  .purchage_coin_type {
+    font-size: 0.8rem;
+  }
+  .purchages_token {
+    width: 40%;
+    height: 2rem;
+    margin-top: 1rem;
+    font-size: 0.6rem;
+  }
+}
+
+@media (min-width:360px) and (max-width: 410px) {
+  .token_container {
+    height: 110vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .token_main {
+    width: 100%;
+    height: 80vh;
+    margin-top: 2rem;
+    margin-left: 1rem;
+  }
+  .token_header {
+    font-size: 1rem;
+    margin: 0;
+  }
+  .token_h2 {
+    font-size: 0.8rem;
+  }
+  .token_p {
+    font-size: 0.7rem;
+  }
+  .button_groups {
+    display: flex;
+    /* flex-direction: column; */
+  }
+  .whitepaper_button {
+    width: 7rem;
+    height: 2rem;
+    font-size: 1rem;
+  }
+  .video_intro {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+    /* margin-top: 1rem; */
+  }
+  .fa-play {
+    font-size: 0.8rem;
+  }
+  .video_intro_name {
+    font-size: 0.6rem;
+  }
+  .tokn_card_container {
+    width: 100vw;
+    height: 70vh;
+    margin: 0.5rem;
+  }
+  .token_card {
+    border-top: 2px solid var(--main-color);
+    width: 90%;
+    /* margin-left: 1rem; */
+    height: 50vh;
+    margin-top: -5rem;
+    align-items: center;
+  }
+  .token_card_heading {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  .token_card_timing {
+    height: 65%;
+  }
+  .token_card_time {
+    height: 30%;
+  }
+  .time_box1 {
+    width: 20vw;
+    height: 20vw;
+    font-size: 2.2rem;
+    margin-top: 1.3rem;
+  }
+  .time_box_name {
+    font-size: 0.8rem;
+    margin-left: 0.6rem;
+  }
+  .token_time_line {
+    margin-top: 5rem;
+    margin-left: 0.5rem;
+  }
+  .about_token_time {
+    font-size: 0.8rem;
+  }
+  .purchage_type {
+    height: 1rem;
+  }
+  .purchage_coin_type {
+    font-size: 0.8rem;
+  }
+  .purchages_token {
+    width: 40%;
+    height: 2rem;
+    margin-top: 1rem;
+    font-size: 0.6rem;
+  }
+}
+
+@media (min-width:410px) and (max-width: 500px) {
+  .token_container {
+    height: 110vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .token_main {
+    width: 100%;
+    height: 80vh;
+    margin-top: 2rem;
+    margin-left: 1rem;
+  }
+  .token_header {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  .token_h2 {
+    font-size: 0.9rem;
+  }
+  .token_p {
+    font-size: 0.9rem;
+  }
+  .button_groups {
+    display: flex;
+    /* flex-direction: column; */
+  }
+  .whitepaper_button {
+    width: 8rem;
+    height: 2.5rem;
+    font-size: 1rem;
+  }
+  .video_intro {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+    /* margin-top: 1rem; */
+  }
+  .fa-play {
+    font-size: 0.8rem;
+  }
+  .video_intro_name {
+    font-size: 0.6rem;
+  }
+  .tokn_card_container {
+    width: 100vw;
+    height: 70vh;
+    margin: 0.5rem;
+  }
+  .token_card {
+    border-top: 2px solid var(--main-color);
+    width: 90%;
+    /* margin-left: 1rem; */
+    height: 60vh;
+    margin-top: -5rem;
+    align-items: center;
+  }
+  .token_card_heading {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  .token_card_timing {
+    height: 65%;
+  }
+  .token_card_time {
+    height: 30%;
+  }
+  .time_box1 {
+    width: 20vw;
+    height: 20vw;
+    font-size: 2.8rem;
+    margin-top: 1.3rem;
+  }
+  .time_box_name {
+    font-size: 0.8rem;
+    margin-left: 0.6rem;
+  }
+  .token_time_line {
+    margin-top: 7rem;
+    margin-left: 0.5rem;
+  }
+  .about_token_time {
+    font-size: 0.8rem;
+  }
+  .purchage_type {
+    height: 1rem;
+  }
+  .purchage_coin_type {
+    font-size: 0.8rem;
+  }
+  .purchages_token {
+    width: 40%;
+    height: 2rem;
+    margin-top: 1.8rem;
+    margin-left: 8rem;
+    font-size: 0.6rem;
+  }
+}
+
+@media (min-width:500px) and (max-width: 600px){
+  .token_container {
+    height: 110vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .token_main {
+    width: 100%;
+    height: 80vh;
+    margin-top: 2rem;
+    margin-left: 1rem;
+  }
+  .token_header {
+    font-size: 1.7rem;
+    margin: 0;
+  }
+  .token_h2 {
+    font-size: 0.9rem;
+  }
+  .token_p {
+    font-size: 0.9rem;
+  }
+  .button_groups {
+    display: flex;
+    /* flex-direction: column; */
+  }
+  .whitepaper_button {
+    width: 8rem;
+    height: 2.5rem;
+    font-size: 1rem;
+  }
+  .video_intro {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+    /* margin-top: 1rem; */
+  }
+  .fa-play {
+    font-size: 0.8rem;
+  }
+  .video_intro_name {
+    font-size: 0.6rem;
+  }
+  .tokn_card_container {
+    width: 100vw;
+    height: 70vh;
+    margin: 0.5rem;
+  }
+  .token_card {
+    border-top: 2px solid var(--main-color);
+    width: 90%;
+    /* margin-left: 1rem; */
+    height: 60vh;
+    margin-top: -5rem;
+    align-items: center;
+  }
+  .token_card_heading {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  .token_card_timing {
+    height: 65%;
+  }
+  .token_card_time {
+    height: 30%;
+  }
+  .time_box1 {
+    width: 20vw;
+    height: 20vw;
+    font-size: 3rem;
+    margin-top: 1.3rem;
+  }
+  .time_box_name {
+    font-size: 0.8rem;
+    margin-left: 0.6rem;
+  }
+  .token_time_line {
+    margin-top: 7rem;
+    margin-left: 0.5rem;
+  }
+  .about_token_time {
+    font-size: 0.8rem;
+  }
+  .purchage_type {
+    height: 1rem;
+  }
+  .purchage_coin_type {
+    font-size: 1rem;
+  }
+  .purchages_token {
+    width: 40%;
+    height: 2.2rem;
+    margin-top: 1.8rem;
+    margin-left: 8rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 600px)  and (max-width: 768px) {
+  .token_container {
+    height: 110vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .token_main {
+    width: 100%;
+    height: 80vh;
+    margin-top: 2rem;
+    margin-left: 1rem;
+  }
+  .token_header {
+    font-size: 1.7rem;
+    margin: 0;
+  }
+  .token_h2 {
+    font-size: 0.9rem;
+  }
+  .token_p {
+    font-size: 0.9rem;
+  }
+  .button_groups {
+    display: flex;
+    /* flex-direction: column; */
+  }
+  .whitepaper_button {
+    width: 8rem;
+    height: 2.5rem;
+    font-size: 1rem;
+  }
+  .video_intro {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
+    /* margin-top: 1rem; */
+  }
+  .fa-play {
+    font-size: 0.8rem;
+  }
+  .video_intro_name {
+    font-size: 0.6rem;
+  }
+  .tokn_card_container {
+    width: 100vw;
+    height: 70vh;
+    margin: 0.5rem;
+  }
+  .token_card {
+    border-top: 2px solid var(--main-color);
+    width: 90%;
+    /* margin-left: 1rem; */
+    height: 60vh;
+    margin-top: -5rem;
+    align-items: center;
+  }
+  .token_card_heading {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  .token_card_timing {
+    height: 55%;
+  }
+  .token_card_time {
+    height: 30%;
+  }
+  .time_box1 {
+    width: 20vw;
+    height: 20vw;
+    font-size: 3rem;
+    margin-top: 1.3rem;
+  }
+  .time_box_name {
+    font-size: 0.8rem;
+    margin-left: 0.6rem;
+  }
+  .token_time_line {
+    
+    display: none;
+  }
+  .about_token_time {
+    font-size: 0.8rem;
+  }
+  .purchage_type {
+    height: 2rem;
+    margin-top: 1rem;
+  }
+  .purchage_coin_type {
+    font-size: 1rem;
+  }
+  .about_token_time {
+    margin-top: 10rem;
+    margin-left: -6rem;
+  }
+  .purchages_token {
+    width: 40%;
+    height: 2.2rem;
+    margin-top: 0.6rem;
+    margin-left: 8rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  
+  .token_main {
+    width: 100%;
+    height: 80vh;
+    margin-top: 2rem;
+    margin-left: 3rem;
+  }
+  .token_header {
+    font-size: 1.9rem;
+    margin: 0;
+    margin-top: 3rem;
+  }
+  .token_h2 {
+    font-size: 0.9rem;
+  }
+  .token_p {
+    font-size: 0.9rem;
+  }
+  .fa-play {
+    font-size: 0.8rem;
+  }
+  .video_intro_name {
+    font-size: 0.6rem;
+  }
+  .tokn_card_container {
+    width: 100vw;
+    /* height: 70vh; */
+    margin: 0.5rem;
+  }
+  .token_card {
+    border-top: 2px solid var(--main-color);
+    align-items: center;
+  }
+  .token_card_heading {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  .token_card_timing {
+    height: 55%;
+  }
+  .token_card_time {
+    height: 30%;
+  }
+  .time_box1 {
+    font-size: 2rem;
+    margin-top: 1.5rem;
+  }
+  .time_box_name {
+    font-size: 0.8rem;
+    margin-left: 0.6rem;
+  }
+  .token_time_line {
+    
+    display: none;
+  }
+  .about_token_time {
+    font-size: 0.8rem;
+  }
+  .purchage_type {
+    height: 2rem;
+    margin-top: 1rem;
+  }
+  .purchage_coin_type {
+    font-size: 1rem;
+  }
+  .about_token_time {
+    margin-top: 6rem;
+    margin-left: -2rem;
+  }
+  .purchages_token {
+    width: 60%;
+    height: 2.2rem;
+    margin-top: 0.6rem;
+    margin-left: 3rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .token_main {
+    width: 100%;
+    height: 80vh;
+    margin-top: 2rem;
+    margin-left: 3rem;
+  }
+  .token_header {
+    font-size: 1.9rem;
+    margin: 0;
+    margin-top: 3rem;
+  }
+  .token_h2 {
+    font-size: 0.9rem;
+  }
+  .token_p {
+    font-size: 0.9rem;
+  }
+  .fa-play {
+    font-size: 0.8rem;
+  }
+  .video_intro_name {
+    font-size: 0.6rem;
+  }
+  .tokn_card_container {
+    width: 100vw;
+    /* height: 70vh; */
+    margin: 0.5rem;
+  }
+  .token_card {
+    border-top: 2px solid var(--main-color);
+    align-items: center;
+  }
+  .token_card_heading {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  .token_card_timing {
+    height: 55%;
+  }
+  .token_card_time {
+    height: 30%;
+  }
+  .time_box1 {
+    font-size: 2rem;
+    margin-top: 1.5rem;
+  }
+  .time_box_name {
+    font-size: 0.8rem;
+    margin-left: 0.6rem;
+  }
+  .token_time_line {
+    
+    display: none;
+  }
+  .about_token_time {
+    font-size: 0.8rem;
+  }
+  .purchage_type {
+    height: 2rem;
+    margin-top: 1rem;
+  }
+  .purchage_coin_type {
+    font-size: 1rem;
+  }
+  .about_token_time {
+    margin-top: 6rem;
+    margin-left: -2rem;
+  }
+  .purchages_token {
+    width: 60%;
+    height: 2.2rem;
+    margin-top: 0.6rem;
+    margin-left: 3rem;
+    font-size: 0.8rem;
+  }
+}

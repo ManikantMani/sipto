@@ -1,0 +1,126 @@
+
+.navbar {/* border: solid 2px black; */
+    /* position: fixed; */
+    width: 100vw;
+    background: rgb(16,7,92);
+background: linear-gradient(90deg, rgba(16,7,92,1) 0%, rgba(17,15,120,1) 50%, rgba(18,40,177,1) 100%);
+}
+
+.nav_logo {
+    /* border: solid 2px green; */
+    display: flex;
+    align-items: center;
+    margin-left: 7rem;
+    cursor: pointer;
+}
+.logo_img {
+    margin-top: -10px;
+    width: 8rem;
+}
+.logo_name .navLink {
+    /* border: solid 2px red; */
+    text-decoration: none;
+    margin-left: -2rem;
+    color: var(--main-color);   
+}
+.navLink {
+    text-decoration: none;
+}
+.logo_name:hover .navLink:hover {
+    color: #00e0b8;
+}
+.navbar-toggler-icon{
+    font-size: 0.8rem;
+    color: var(--main-color);
+    background-color: #fff;
+}
+.navbar-toggler {
+    color: var(--main-color);
+}
+.navbar-nav {
+    margin-right: 6rem;
+}
+.nav-link {
+    /* border: solid 2px blue; */
+    color: var(--main-color);
+    margin: 0rem 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.nav-link:hover {
+    color: #00e0b8;
+}
+
+@media only screen and (max-width: 300px) {
+    .nav_logo {
+        margin-left: 0;
+    }
+    .logo_img {
+        width: 6rem;
+    }
+}
+
+@media (min-width:300px) and (max-width: 360px) {
+    .nav_logo {
+        margin-left: 0;
+    }
+    .logo_img {
+        width: 6rem;
+    }
+}
+
+@media (min-width:360px) and (max-width: 410px) {
+    .nav_logo {
+        margin-left: 0;
+    }
+    .logo_img {
+        width: 6rem;
+    }
+}
+
+@media (min-width:410px) and (max-width: 500px) {
+    .nav_logo {
+        margin-left: 0;
+    }
+    .logo_img {
+        width: 6rem;
+    }
+}
+
+@media (min-width:500px) and (max-width: 600px){
+    .nav_logo {
+        margin-left: 0;
+    }
+    .logo_img {
+        width: 6rem;
+    }
+}
+
+@media (min-width: 600px)  and (max-width: 768px) {
+    .nav_logo {
+        margin-left: 0;
+    }
+    .logo_img {
+        width: 6rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .nav_logo {
+        margin-left: 0;
+    }
+    .logo_img {
+        width: 6rem;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .nav_logo {
+        margin-left: 0;
+    }
+    .logo_img {
+        width: 6rem;
+    }
+}
+
